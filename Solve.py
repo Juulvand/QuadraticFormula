@@ -16,7 +16,7 @@ def Discriminant (a,b,c):
     vD = math.pow(b,2.0)- 4*a*c
     print 'Discriminant =' , vD
 
-    if vD > 0:    
+    if vD >= 0:    
         Solve (a,b,c,vD)
     else:
         print 'No Solution'
